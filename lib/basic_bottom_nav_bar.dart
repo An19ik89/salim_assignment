@@ -620,7 +620,7 @@ class _BasicBottomNavBarState extends State<BasicBottomNavBar> {
     RenderBox? renderBox =
         _globalKey.currentContext!.findRenderObject() as RenderBox?;
     menuSize = (renderBox!.size * 2);
-    menuOffset = renderBox.localToGlobal(const Offset(-9, -74));
+    menuOffset = renderBox.localToGlobal(const Offset(-9, -86));
     _overlayEntry = _createOverlayEntry();
     Overlay.of(context).insert(_overlayEntry);
     //isMenuVisible = !isMenuVisible;
